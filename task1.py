@@ -17,7 +17,7 @@ for i in range(len(asset_id)):
 
 
 print(" Office Inventory details ")
+print(f"{'Asset ID':<10} | {'Asset Name':<12} | {'Quantity':<10} | {'Brand':<10} | {'Status':<15}")
+print("-" * 67)
 for asset in inventory:
-    print("--------------------")
-    for key, value in asset.items():
-        print(key ,":",value)
+    print(f"{asset['asset id']:<10} | {asset['asset name']:<12} | {asset['quantity']:<10} | {asset['brand']:<10} | {asset['status']:<15}")
