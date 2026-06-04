@@ -21,3 +21,4 @@ print(f"{'Asset ID':<10} | {'Asset Name':<12} | {'Quantity':<10} | {'Brand':<10}
 print("-" * 67)
 for asset in inventory:
     print(f"{asset['asset id']:<10} | {asset['asset name']:<12} | {asset['quantity']:<10} | {asset['brand']:<10} | {asset['status']:<15}")
+print(inventory)
